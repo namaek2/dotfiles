@@ -17,10 +17,11 @@ Mixed JaKooLit's and 1amSimp1e's one.
 -   Bar : Waybar
 -   Launcher : Rofi
 -   Logout menu : Wlogout
+-   Notification : dunst
 -   Terminal : kitty
 -   Shell : Oh My Zsh
--   fetch : neofetch
--   fonts :
+-   Fetch : neofetch
+-   Fsonts :
     -   font Awesome
     -   JetBrains Mono Nerd
 -   lock : swaylock
@@ -29,5 +30,5 @@ Mixed JaKooLit's and 1amSimp1e's one.
 # Installation
 
 ```terminal
-paru -S hyprland-git swaylock waybar-hyprland-git kitty-git oh-my-zsh-git neofetch-git rofi-git wlogout
+paru -S hyprland-git swaylock waybar-hyprland-git kitty-git oh-my-zsh-git neofetch-git rofi-git wlogout dunst
 ```
