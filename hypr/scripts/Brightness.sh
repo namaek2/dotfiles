@@ -40,10 +40,28 @@ case "$1" in
 		get_backlight
 		;;
 	"--inc")
-		change_backlight "+10%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
+		change_backlight "+1%"
 		;;
 	"--dec")
-		change_backlight "10%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
+		change_backlight "1%-"
 		;;
 	*)
 		get_backlight
