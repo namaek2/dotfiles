@@ -1,7 +1,7 @@
 {
     "height": 10, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
-    "modules-left": ["custom/launcher",  "hyprland/workspaces", "custom/weather"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/weather"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "cpu", "memory","pulseaudio", "backlight", "battery", "custom/lock", "custom/power-menu"],
     "hyprland/workspaces": {
@@ -12,6 +12,12 @@
         "default": "󰑊",
       }
     },
+
+    "hyprland/window": {
+      "max-length": 50,
+      "separate-outputs": true
+    },
+ 
 
     "tray": {
         "spacing": 10

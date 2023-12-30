@@ -45,18 +45,8 @@ case "$1" in
 		change_backlight "+1%"
 		change_backlight "+1%"
 		change_backlight "+1%"
-		change_backlight "+1%"
-		change_backlight "+1%"
-		change_backlight "+1%"
-		change_backlight "+1%"
-		change_backlight "+1%"
 		;;
 	"--dec")
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
 		change_backlight "1%-"
 		change_backlight "1%-"
 		change_backlight "1%-"
