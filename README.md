@@ -4,9 +4,6 @@ Mixed JaKooLit's and 1amSimp1e's one.
 
 # OverView
 
-![image1](./ScreenShots/image1.png)
-![image2](./ScreenShots/image2.png)
-![image3](./ScreenShots/image3.png)
 
 # Dependencies
 
