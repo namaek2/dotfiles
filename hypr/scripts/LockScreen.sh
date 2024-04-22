@@ -2,4 +2,5 @@
 
 CONFIG="$HOME/.config/swaylock/config"
 
-sleep 0.1s; swaylock --config ${CONFIG} & disown
+#sleep 0.01s; 
+swaylock --config ${CONFIG} & disown
