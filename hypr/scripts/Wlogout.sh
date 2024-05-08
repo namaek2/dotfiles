@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # If you have 1440p, better to use this
-#wlogout --protocol layer-shell -b 5 -T 600 -B 600 &
+wlogout #--protocol layer-shell -b 3 -T 225 -B 225 &
 
 # for 1080p
-wlogout --protocol layer-shell -b 5 -T 450 -B 450 &
+#wlogout --protocol layer-shell -b 3 -T 450 -B 450 &
 
 
 # Capture the PID of the wlogout process
