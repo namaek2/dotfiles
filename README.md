@@ -18,10 +18,11 @@ Mixed JaKooLit's and 1amSimp1e's one.
 -   Terminal : kitty
 -   Shell : Oh My Zsh
 -   Fetch : neofetch
--   Fsonts :
+-   Fonts :
     -   font Awesome
     -   JetBrains Mono Nerd
--   lock : swaylock
+-   lock : hyprlock
+-   idle : hypridle
 -   icon : papirus theme
 
 # Installation
