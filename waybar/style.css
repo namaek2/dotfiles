@@ -1,6 +1,6 @@
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
-	font-family: Material Design Icons, JetBrainsMono Nerd Font;
+	font-family: Material Design Icons, JetBrainsMono Nerd Font, Consolas;
 	font-size: 17px;
 }
 
@@ -25,8 +25,7 @@ window#waybar.hidden {
 #mode,
 #workspaces,
 #idle_inhibitor,
-#custom-launcher,
-#custom-spotify,
+#custom-launcher/*
 #custom-weather,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
@@ -37,7 +36,7 @@ window#waybar.hidden {
 #custom-weather.rainyNight,
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
-#custom-weather.default {
+#custom-weather.default */{
 	color: #ffffff; /*#e5e5e5;*/
 
 	padding: 0px 10px;
@@ -236,14 +235,14 @@ window#waybar.hidden {
 }
 
 tooltip {
-	font-family: Iosevka Nerd Font;
+	font-family: SF Pro Display;
 	border-radius: 15px;
 	padding: 15px;
 	background-color: #1f232b;
 }
 
 tooltip label {
-	font-family: Iosevka Nerd Font;
+	font-family: SF Pro Display;
 	padding: 5px;
 }
 
@@ -268,10 +267,12 @@ label:focus {
 	background-color: #eb4d4b;
 }
 
+/*
 #custom-weather {
-	font-family: Iosevka Nerd Font;
+	font-family: Consolas;
 	font-size: 17px;
 	color: #ffffff;
+	margin-right: 5px;
 }
 
 #custom-weather.severe {
@@ -303,4 +304,4 @@ label:focus {
 
 #custom-weather.default {
 	color: #dbd9d8;
-}
+}*/
