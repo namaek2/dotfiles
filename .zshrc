@@ -10,15 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="cloud"
 
-plugins=(
-    git
-    archlinux
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-)
-
-
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -83,7 +74,9 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-neofetch
+eval $(thefuck --alias)
+# You can use whatever you want as an alias, like for Mondays:
+eval $(thefuck --alias FUCK)
 
 # User configuration
 
@@ -108,5 +101,6 @@ neofetch
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+#alias zshconfig="mate ~/.zshrc"
+
+#alias ohmyzsh="mate ~/.oh-my-zsh"
