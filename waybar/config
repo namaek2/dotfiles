@@ -1,6 +1,8 @@
 {
     "Height": 8, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
+    "mode": "dock",
+    "position": "bottom",
     "modules-left": ["custom/launcher", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "cpu", "memory","pulseaudio", "backlight", "battery", "custom/lock", "custom/power-menu"],
@@ -120,7 +122,7 @@
     },
  
     "custom/launcher": {
-        "format": "  Arch",
+        "format": "",
         "on-click": "rofi -show drun &",
     },
 }

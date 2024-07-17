@@ -1,9 +1,10 @@
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
 	font-family: Material Design Icons, JetBrainsMono Nerd Font, Consolas;
-	font-size: 17px;
+	font-size: 17px; 
+   	padding: 0;
+    	margin: 0;
 }
-
 window#waybar {
 	background-color: rgba(26, 26, 26, 0.5);
 	color: #ffffff;
@@ -17,26 +18,13 @@ window#waybar.hidden {
 
 #window {
 	color: #64727d;
+	margin-left: 10px;
 }
 
 #clock,
-#custom-media,
 #tray,
-#mode,
-#workspaces,
-#idle_inhibitor,
-#custom-launcher/*
-#custom-weather,
-#custom-weather.severe,
-#custom-weather.sunnyDay,
-#custom-weather.clearNight,
-#custom-weather.cloudyFoggyDay,
-#custom-weather.cloudyFoggyNight,
-#custom-weather.rainyDay,
-#custom-weather.rainyNight,
-#custom-weather.showyIcyDay,
-#custom-weather.snowyIcyNight,
-#custom-weather.default */{
+#workspaces
+{
 	color: #ffffff; /*#e5e5e5;*/
 
 	padding: 0px 10px;
@@ -45,9 +33,10 @@ window#waybar.hidden {
 	font-size: 16px;
 
 	margin-left: 4px;
-
-	margin-top: 4px;
-	margin-bottom: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 #workspaces button {
@@ -83,16 +72,16 @@ window#waybar.hidden {
 
 #custom-launcher {
 	color: #ffffff; /*#7a95c9;*/
+	background-color: #000000; /*252733*/
+	border-radius: 8px;
+	padding-right: 14px;
+	padding-left: 8px;
 
-	padding-right: 18px;
-	padding-left: 12px;
-
-	font-size: 17px;
-
-	margin-top: 4px;
-	margin-bottom: 4px;
+	font-size: 16px;
+	margin-left: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
-
 #backlight,
 #battery,
 #pulseaudio,
@@ -104,18 +93,18 @@ window#waybar.hidden {
 	padding-left: 7.5px;
 	padding-right: 7.5px;
 
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 
 	font-size: 18px;
 }
 
 #pulseaudio {
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 14px;
 	padding-left: 11px;
 	padding-right: 15px;
 	border-radius: 8px 0px 0px 8px;
@@ -175,7 +164,7 @@ window#waybar.hidden {
 	color: #ffffff;
 	border-radius: 0px 8px 8px 0px;
 	padding-right: 13px;
-	font-size: 15px;
+	font-size: 14px;
 
 	margin-right: 4px;
 	/*
@@ -188,7 +177,7 @@ window#waybar.hidden {
 
 #custom-lock {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 13px;
     padding-right: 10px;
     padding-left: 0px;
 }
@@ -201,13 +190,13 @@ window#waybar.hidden {
 	padding-left: 7.5px;
 	padding-right: 7.5px;
 
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 
-	font-size: 17px;
+	font-size: 16px;
 }
 
 #cpu {
@@ -237,13 +226,13 @@ window#waybar.hidden {
 tooltip {
 	font-family: SF Pro Display;
 	border-radius: 15px;
-	padding: 15px;
+	padding: 0px;
 	background-color: #1f232b;
 }
 
 tooltip label {
 	font-family: SF Pro Display;
-	padding: 5px;
+	padding: 0px;
 }
 
 label:focus {
@@ -251,11 +240,11 @@ label:focus {
 }
 
 #tray {
-	margin-right: 4px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	border-radius: 8px;
-	font-size: 30px;
+	font-size: 1px;
 }
 
 #tray > .passive {
@@ -266,42 +255,3 @@ label:focus {
 	-gtk-icon-effect: highlight;
 	background-color: #eb4d4b;
 }
-
-/*
-#custom-weather {
-	font-family: Consolas;
-	font-size: 17px;
-	color: #ffffff;
-	margin-right: 5px;
-}
-
-#custom-weather.severe {
-	color: #eb937d;
-}
-
-#custom-weather.sunnyDay {
-	color: #c2ca76;
-}
-
-#custom-weather.clearNight {
-	color: #cad3f5;
-}
-
-#custom-weather.cloudyFoggyDay,
-#custom-weather.cloudyFoggyNight {
-	color: #c2ddda;
-}
-
-#custom-weather.rainyDay,
-#custom-weather.rainyNight {
-	color: #5aaca5;
-}
-
-#custom-weather.showyIcyDay,
-#custom-weather.snowyIcyNight {
-	color: #d6e7e5;
-}
-
-#custom-weather.default {
-	color: #dbd9d8;
-}*/
