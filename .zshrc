@@ -77,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
-
+alias venv='source ~/.venv/bin/activate'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
