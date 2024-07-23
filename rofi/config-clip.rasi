@@ -19,8 +19,8 @@ configuration {
 window {
 	transparency:                   "real";
 	border-radius:                  30px 30px 0px 0px; 
-	width:			    	40%;
-	height:				70%;
+	width:			    	38%;
+	height:				60%;
 	y-offset:                       10px;
 	padding: 			20px;
 	margin:				10px;
@@ -61,18 +61,9 @@ mainbox {
 }
 
 element {
-	children:			[element-icon, element-text];
 	orientation:                    horizontal;
 	border-radius:                  0%;
 	padding:                        1.5% 0% 1.5% 0%;
-}
-
-element-icon {
-	background-color:		transparent;
-	text-color:			inherit;		
-	size:                   	33px;
-	cursor:                   	inherit;
-	margin:			  	0% 0% 0% 3%;
 }
 
 element-text {
