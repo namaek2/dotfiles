@@ -30,7 +30,7 @@
 	"extensions.ignoreRecommendations": true,
 	"liveServer.settings.donotVerifyTags": true,
 	"github.copilot.enable": {
-		"*": true,
+		"*": false,
 		"plaintext": false,
 		"markdown": false,
 		"scminput": false
@@ -44,7 +44,6 @@
 	"workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
 	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
 	"debug.onTaskErrors": "debugAnyway",
-	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
@@ -60,7 +59,7 @@
 	"editor.formatOnType": true,
 	"vscode_vibrancy.imports": ["/path/to/file"],
 	"glassit.alpha": 220,
-	"editor.defaultFormatter": "ms-vscode.cpptools",
+	"editor.defaultFormatter": "mikoz.black-py",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.fontSize": 16,
 	"C_Cpp.autocompleteAddParentheses": true,
@@ -69,12 +68,14 @@
 	"liveServer.settings.donotShowInfoMsg": true,
 	"explorer.confirmDelete": false,
 	"github.copilot.editor.enableAutoCompletions": true,
-	"workbench.activityBar.location": "hidden",
+	"workbench.editor.editorActionsLocation": "titleBar",
 	"window.customTitleBarVisibility": "auto",
 	"window.density.editorTabHeight": "compact",
 	"window.menuBarVisibility": "visible",
 	"window.titleBarStyle": "custom",
-	"workbench.editor.showTabs": "single",
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.editorActionsLocation": "titleBar",
+	"workbench.activityBar.location": "top",
+	"editor.formatOnSave": true,
+	"git.autofetch": true
 }
