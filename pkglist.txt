@@ -16,6 +16,7 @@ cups
 dunst
 efibootmgr
 eog
+fastfetch
 firefox-developer-edition
 fprintd
 fwupd
@@ -33,6 +34,7 @@ hypridle
 hyprland
 hyprlock
 intel-ucode
+jdk8-openjdk
 kitty
 libnetfilter_queue
 libreoffice-fresh
@@ -57,6 +59,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 python-pip
+python-pwntools
 python-pycryptodome
 python-requests
 qtcreator

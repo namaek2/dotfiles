@@ -1,4 +1,5 @@
 android-studio
+ascii-image-converter
 autopsy
 autopsy-debug
 burpsuite
@@ -7,7 +8,6 @@ gimp-devel
 ida-free
 jadx-gui-desktop
 java17-openjfx-bin
-java8-openjdk-hsdis
 kime-git
 libreoffice-extension-h2orestart
 noisetorch-git
