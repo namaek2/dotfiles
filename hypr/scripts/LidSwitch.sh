@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if grep open /proc/acpi/button/lid/LID/state; then
-    hyprctl keyword monitor "eDP-1,3840x2400@60,0x0, 2"
+    hyprctl keyword monitor "eDP-1,1920x1200@120,0x0, 1"
 
 else
     if [[ `hyprctl monitors | grep "Monitor" | wc -l` != 1 ]]; then
