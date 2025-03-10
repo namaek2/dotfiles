@@ -1,4 +1,5 @@
 android-studio
+anki
 ascii-image-converter
 burpsuite
 easyeda-bin
