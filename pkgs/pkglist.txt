@@ -46,6 +46,7 @@ linux-firmware
 linux-headers
 man-db
 man-pages
+mariadb
 maven
 network-manager-applet
 networkmanager
