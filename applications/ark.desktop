@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=ark
+MimeType=application/x-compressed-tar;
+Name=ark
+NoDisplay=true
+Type=Application

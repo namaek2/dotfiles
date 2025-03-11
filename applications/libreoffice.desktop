@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=libreoffice
+MimeType=application/vnd.openxmlformats-officedocument.presentationml.presentation;
+Name=libreoffice
+NoDisplay=true
+Type=Application
