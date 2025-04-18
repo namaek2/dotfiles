@@ -1,7 +1,9 @@
 android-studio
 anki
 ascii-image-converter
+autopsy
 burpsuite
+docker-desktop
 easyeda-bin
 ghidra-git
 gimp-devel

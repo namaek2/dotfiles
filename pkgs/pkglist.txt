@@ -22,6 +22,7 @@ efibootmgr
 eog
 fastfetch
 firefox-developer-edition
+fping
 freerdp
 fwupd
 fzf
@@ -52,6 +53,7 @@ network-manager-applet
 networkmanager
 nmap
 noto-fonts-emoji
+nwg-displays
 nwg-look
 obs-studio
 obsidian
@@ -64,10 +66,12 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pwndbg
+python-opencv
 python-pip
 python-pwntools
 python-pycryptodome
 python-requests
+python-tensorflow
 qemu-desktop
 qtcreator
 reflector
@@ -75,11 +79,18 @@ remmina
 rofi-wayland
 rsync
 sassc
+sl
 sof-firmware
+solaar
 sqlitebrowser
 sqlmap
 swappy
 swww
+tesseract
+tesseract-data-chi_sim
+tesseract-data-chi_tra
+tesseract-data-eng
+tesseract-data-kor
 thefuck
 thunar
 tlp
