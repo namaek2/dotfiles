@@ -7,6 +7,7 @@ android-tools
 ark
 base
 base-devel
+binwalk
 blueman
 bluez
 bluez-utils
@@ -38,6 +39,7 @@ gvfs
 hypridle
 hyprland
 hyprlock
+intel-compute-runtime
 intel-ucode
 jdk21-openjdk
 kitty
@@ -57,6 +59,7 @@ nwg-displays
 nwg-look
 obs-studio
 obsidian
+okteta
 ollama
 os-prober
 pamixer
@@ -86,6 +89,7 @@ sqlitebrowser
 sqlmap
 swappy
 swww
+syncthing
 tesseract
 tesseract-data-chi_sim
 tesseract-data-chi_tra
@@ -97,6 +101,7 @@ tlp
 torbrowser-launcher
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
+tumbler
 udisks2
 unrar
 vim

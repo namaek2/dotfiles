@@ -1,12 +1,16 @@
+android-apktool-bin
 android-studio
 anki
 ascii-image-converter
 autopsy
+bindiff
 burpsuite
 docker-desktop
 easyeda-bin
 ghidra-git
 gimp-devel
+hashcat-git
+hashcat-utils-git
 ida-free
 jadx-gui-desktop
 kime-git
@@ -21,8 +25,10 @@ pipes-rs
 python-frida-bin
 python-frida-tools
 python-javalang
+python-pyautogui
 slack-desktop-wayland
 staruml
+steghide
 tela-circle-icon-theme-standard-git
 ttf-nanum
 vesktop
