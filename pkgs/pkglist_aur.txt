@@ -25,7 +25,6 @@ pipes-rs
 python-frida-bin
 python-frida-tools
 python-javalang
-python-pyautogui
 slack-desktop-wayland
 staruml
 steghide
@@ -33,6 +32,9 @@ tela-circle-icon-theme-standard-git
 ttf-nanum
 vesktop
 visual-studio-code-bin
+vmware-host-modules-dkms-git
+vmware-keymaps
+vmware-workstation
 wl-color-picker
 wlogout
 z3-git
