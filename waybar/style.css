@@ -1,0 +1,257 @@
+* {
+	/* `otf-font-awesome` is required to be installed for icons */
+	font-family: Material Design Icons, JetBrainsMono Nerd Font, Consolas;
+	font-size: 17px; 
+   	padding: 0;
+    	margin: 0;
+}
+window#waybar {
+	background-color: rgba(26, 26, 26, 0.5);
+	color: #ffffff;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+	opacity: 0.01;
+}
+
+#window {
+	color: #64727d;
+	margin-left: 10px;
+}
+
+#clock,
+#tray,
+#workspaces
+{
+	color: #ffffff; /*#e5e5e5;*/
+
+	padding: 0px 10px;
+	background-color: rgba(0, 0, 0, 0); /*252733*/
+	border-radius: 8px;
+	font-size: 16px;
+
+	margin-left: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#workspaces button {
+	color: #ffffff; /*#7a95c9;*/
+	box-shadow: inset 0 -3px transparent;
+
+	padding-right: 3px;
+	padding-left: 4px;
+
+	margin-left: 0.1em;
+	margin-right: 0em;
+	transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.68);
+}
+
+#workspaces button.active {
+	color: #ffffff; /*#ecd3a0;*/
+	padding-left: 1px;
+	padding-right: 12px;
+	margin-left: 0em;
+	margin-right: 0em;
+	transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.68);
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+	margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+	margin-right: 0;
+}
+
+#custom-launcher {
+	color: #ffffff; /*#7a95c9;*/
+	background-color: rgba(0, 0, 0, 0); /*252733*/
+	border-radius: 8px;
+	padding-right: 14px;
+	padding-left: 8px;
+
+	font-size: 16px;
+	margin-left: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#backlight,
+#battery,
+#pulseaudio,
+#custom-power-menu,
+#custom-lock {
+	background-color: rgba(0, 0, 0, 0);;
+	padding: 0em 2em;
+
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+	font-size: 18px;
+}
+
+#pulseaudio {
+	color: #ffffff;
+	font-size: 14px;
+	padding-left: 11px;
+	padding-right: 15px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+#pulseaudio.muted {
+	color: #ffffff;
+	padding-left: 12px;
+}
+
+#backlight {
+	color: #ffffff;
+	padding-right: 7.5px;
+	padding-left: 0px;
+}
+
+#battery {
+	color: #ffffff;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+
+#battery.critical,
+#battery.warning,
+#battery.full,
+#battery.plugged {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+#battery.charging {
+	padding-right: 10px;
+	padding-left: 0px;
+}
+
+#battery.full,
+#battery.plugged {
+	padding-right: 10px;
+}
+
+@keyframes blink {
+	to {
+		background-color: rgba(30, 34, 42, 0.5);
+		color: #abb2bf;
+	}
+}
+
+#battery.warning {
+	color: #ecd3a0;
+}
+
+#battery.critical:not(.charging) {
+	color: #fb958b;
+}
+
+#custom-power-menu {
+	color: #ffffff;
+	border-radius: 0px 8px 8px 0px;
+	padding-right: 13px;
+	font-size: 14px;
+
+	margin-right: 4px;
+	/*
+  margin-right: 12px;
+  border-radius: 12px;
+  padding: 0 6px 0 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;*/
+}
+
+#custom-lock {
+    color: #ffffff;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+#cpu,
+#memory {
+	background-color: rgba(0, 0, 0, 0);;
+	padding: 0em 2em;
+
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+	font-size: 16px;
+}
+
+#cpu {
+	color: #ffffff;
+	padding-left: 11px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+#memory {
+	color: #ffffff;
+	border-radius: 0px 8px 8px 0px;
+	padding-right: 12px;
+	margin-right: 4px;
+}
+
+#clock {
+	color: #ffffff; /*#8a909e;*/
+	background-color: rgba(255, 255, 255, 0);
+	font-weight: 400;
+	font-size: 18px;
+	font-family: SF Pro Display;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+
+tooltip {
+	font-family: SF Pro Display;
+	border-radius: 15px;
+	padding: 0px;
+	background-color: #1f232b;
+}
+
+tooltip label {
+	font-family: SF Pro Display;
+	padding: 0px;
+}
+
+label:focus {
+	background-color: #1f232b;
+}
+
+#tray {
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 8px;
+	font-size: 1px;
+}
+
+#tray > .passive {
+	-gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+	-gtk-icon-effect: highlight;
+	background-color: #eb4d4b;
+}

@@ -81,7 +81,7 @@ reflector
 remmina
 rofi-wayland
 rsync
-sassc
+sagemath
 sl
 sof-firmware
 solaar
@@ -89,7 +89,6 @@ sqlitebrowser
 sqlmap
 swappy
 swww
-syncthing
 tesseract
 tesseract-data-chi_sim
 tesseract-data-chi_tra

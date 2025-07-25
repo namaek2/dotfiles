@@ -3,8 +3,10 @@ android-studio
 anki
 ascii-image-converter
 autopsy
+binaryninja-free
 bindiff
 burpsuite
+cursor-bin
 docker-desktop
 easyeda-bin
 ghidra-git
@@ -22,8 +24,7 @@ papirus-icon-theme-git
 paru
 paru-debug
 pipes-rs
-python-frida-bin
-python-frida-tools
+python-frida
 python-javalang
 slack-desktop-wayland
 staruml
