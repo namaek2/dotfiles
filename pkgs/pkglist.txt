@@ -79,7 +79,7 @@ qemu-desktop
 qtcreator
 reflector
 remmina
-rofi-wayland
+rofi
 rsync
 sagemath
 sl
@@ -98,7 +98,6 @@ thefuck
 thunar
 tlp
 torbrowser-launcher
-ttf-font-awesome
 ttf-jetbrains-mono-nerd
 tumbler
 udisks2
@@ -108,6 +107,7 @@ vlc
 waybar
 wget
 wireshark-qt
+woff2-font-awesome
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 zsh

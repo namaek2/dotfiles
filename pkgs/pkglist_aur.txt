@@ -17,6 +17,7 @@ ida-free
 jadx-gui-desktop
 kime-git
 libreoffice-extension-h2orestart
+llpp-git
 noisetorch-git
 notion-app-electron
 otf-apple-fonts
@@ -33,7 +34,6 @@ tela-circle-icon-theme-standard-git
 ttf-nanum
 vesktop
 visual-studio-code-bin
-vmware-host-modules-dkms-git
 vmware-keymaps
 vmware-workstation
 wl-color-picker
