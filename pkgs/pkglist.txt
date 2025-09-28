@@ -33,7 +33,6 @@ glib2-devel
 gnome-calculator
 gnome-system-monitor
 gnome-themes-extra
-gnu-netcat
 grub
 gvfs
 hypridle
@@ -58,7 +57,6 @@ noto-fonts-emoji
 nwg-displays
 nwg-look
 obs-studio
-obsidian
 okteta
 ollama
 os-prober
@@ -110,4 +108,5 @@ wireshark-qt
 woff2-font-awesome
 xdg-desktop-portal-hyprland
 xdg-user-dirs
+zaproxy
 zsh

@@ -3,14 +3,15 @@ android-studio
 anki
 ascii-image-converter
 autopsy
-binaryninja-free
 bindiff
 burpsuite
-cursor-bin
+claude-desktop-native
+claude-desktop-native-debug
 docker-desktop
 easyeda-bin
 ghidra-git
 gimp-devel
+gnu-netcat
 hashcat-git
 hashcat-utils-git
 ida-free
@@ -27,7 +28,6 @@ paru-debug
 pipes-rs
 python-frida
 python-javalang
-slack-desktop-wayland
 staruml
 steghide
 tela-circle-icon-theme-standard-git
