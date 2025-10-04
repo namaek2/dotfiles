@@ -5,8 +5,8 @@ ascii-image-converter
 autopsy
 bindiff
 burpsuite
+capa-bin
 claude-desktop-native
-claude-desktop-native-debug
 docker-desktop
 easyeda-bin
 ghidra-git
@@ -14,11 +14,9 @@ gimp-devel
 gnu-netcat
 hashcat-git
 hashcat-utils-git
-ida-free
 jadx-gui-desktop
 kime-git
 libreoffice-extension-h2orestart
-llpp-git
 noisetorch-git
 notion-app-electron
 otf-apple-fonts

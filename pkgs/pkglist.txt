@@ -74,7 +74,6 @@ python-pycryptodome
 python-requests
 python-tensorflow
 qemu-desktop
-qtcreator
 reflector
 remmina
 rofi
