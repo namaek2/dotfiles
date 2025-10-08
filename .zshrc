@@ -77,7 +77,9 @@ fastfetch
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
-alias venv='source ~/.venv/bin/activate'
+alias venv='python -m venv .venv && source .venv/bin/activate'
+alias qemu@windows='qemu-system-x86_64 -m 6G -enable-kvm -cpu host -smp sockets=1,cores=6,threads=6 -drive file=./windows.raw,format=raw'
+alias qemu@android='qemu-system-x86_64 -m 4G -enable-kvm -boot menu=off -drive file=./android,format=raw'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -91,6 +93,7 @@ alias venv='source ~/.venv/bin/activate'
 # else
 #   export EDITOR='mvim'
 # fi
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
