@@ -33,6 +33,7 @@ glib2-devel
 gnome-calculator
 gnome-system-monitor
 gnome-themes-extra
+gradle
 grub
 gvfs
 hypridle
@@ -41,6 +42,7 @@ hyprlock
 intel-compute-runtime
 intel-ucode
 jdk21-openjdk
+john
 kitty
 libnetfilter_queue
 linux
@@ -50,6 +52,7 @@ man-db
 man-pages
 mariadb
 maven
+metasploit
 network-manager-applet
 networkmanager
 nmap
