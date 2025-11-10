@@ -53,6 +53,7 @@ man-pages
 mariadb
 maven
 metasploit
+minicom
 network-manager-applet
 networkmanager
 nmap
@@ -71,6 +72,7 @@ pipewire-jack
 pipewire-pulse
 pwndbg
 python-opencv
+python-openpyxl
 python-pip
 python-pwntools
 python-pycryptodome
