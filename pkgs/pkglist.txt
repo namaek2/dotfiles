@@ -7,11 +7,9 @@ android-tools
 ark
 base
 base-devel
-binwalk
 blueman
 bluez
 bluez-utils
-bolt
 brightnessctl
 btop
 cliphist
@@ -24,8 +22,8 @@ eog
 fastfetch
 firefox-developer-edition
 fping
+fprintd
 freerdp
-fwupd
 fzf
 gdb
 git
@@ -33,9 +31,11 @@ glib2-devel
 gnome-calculator
 gnome-system-monitor
 gnome-themes-extra
+go
 gradle
 grub
 gvfs
+hashcat-utils
 hypridle
 hyprland
 hyprlock
@@ -44,6 +44,7 @@ intel-ucode
 jdk21-openjdk
 john
 kitty
+libfprint
 libnetfilter_queue
 linux
 linux-firmware
@@ -70,6 +71,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+powertop
 pwndbg
 python-opencv
 python-openpyxl
@@ -89,6 +91,7 @@ sof-firmware
 solaar
 sqlitebrowser
 sqlmap
+squashfs-tools
 swappy
 swww
 tesseract
@@ -98,7 +101,7 @@ tesseract-data-eng
 tesseract-data-kor
 thefuck
 thunar
-tlp
+thunar-volman
 torbrowser-launcher
 ttf-jetbrains-mono-nerd
 tumbler
@@ -108,6 +111,7 @@ vim
 vlc
 waybar
 wget
+wireplumber
 wireshark-qt
 woff2-font-awesome
 xdg-desktop-portal-hyprland
