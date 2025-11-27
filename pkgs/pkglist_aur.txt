@@ -3,6 +3,7 @@ android-studio
 anki
 apple-fonts
 ascii-image-converter
+aur-auto-vote-git
 autopsy
 bindiff
 binwalk-git

@@ -55,6 +55,7 @@ mariadb
 maven
 metasploit
 minicom
+mtd-utils
 network-manager-applet
 networkmanager
 nmap
@@ -74,10 +75,12 @@ pipewire-pulse
 powertop
 pwndbg
 python-opencv
+python-opengl
 python-openpyxl
 python-pip
 python-pwntools
 python-pycryptodome
+python-pyqtgraph
 python-requests
 python-tensorflow
 qemu-desktop
