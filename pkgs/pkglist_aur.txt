@@ -18,6 +18,7 @@ gnu-netcat
 hashcat-git
 jadx-gui-desktop
 kime-git
+kuro
 libreoffice-extension-h2orestart
 noisetorch-git
 notion-app-electron
@@ -40,4 +41,3 @@ wl-color-picker
 wlogout
 wordlist-git
 z3-git
-zotero-bin

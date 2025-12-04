@@ -5,6 +5,7 @@ alsa-ucm-conf
 alsa-utils
 android-tools
 ark
+audacity
 base
 base-devel
 blueman
@@ -29,6 +30,7 @@ gdb
 git
 glib2-devel
 gnome-calculator
+gnome-sound-recorder
 gnome-system-monitor
 gnome-themes-extra
 go
@@ -87,6 +89,7 @@ qemu-desktop
 reflector
 remmina
 rofi
+routersploit
 rsync
 sagemath
 sl
