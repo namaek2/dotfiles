@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ida-pro-mcp": {
+      "command": "/home/namaek2/.venv/bin/python3",
+      "args": [
+        "/home/namaek2/.venv/lib/python3.13/site-packages/ida_pro_mcp/server.py",
+        "--ida-rpc",
+        "http://127.0.0.1:13337"
+       ],
+      "tools": []
+    }
+  }
+}
