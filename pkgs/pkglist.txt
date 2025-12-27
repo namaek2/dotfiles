@@ -11,10 +11,12 @@ base-devel
 blueman
 bluez
 bluez-utils
+bolt
 brightnessctl
 btop
 cliphist
 cmatrix
+cpio
 cups
 docker
 dunst
@@ -76,6 +78,7 @@ pipewire-jack
 pipewire-pulse
 powertop
 pwndbg
+python-olefile
 python-opencv
 python-opengl
 python-openpyxl
@@ -85,6 +88,7 @@ python-pycryptodome
 python-pyqtgraph
 python-requests
 python-tensorflow
+python-tomli
 qemu-desktop
 reflector
 remmina
@@ -122,5 +126,8 @@ wireshark-qt
 woff2-font-awesome
 xdg-desktop-portal-hyprland
 xdg-user-dirs
+yara
 zaproxy
+zathura
+zathura-pdf-mupdf
 zsh

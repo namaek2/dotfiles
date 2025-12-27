@@ -8,6 +8,14 @@
         "http://127.0.0.1:13337"
        ],
       "tools": []
-    }
+    },
+  "jadx-mcp-server": {
+	"command": "uv",             
+	"args": [
+                "run",
+                "~/MCPs/jadx-mcp-server/jadx_mcp_server.py"
+        ],
+	"tools": []
   }
+ }
 }

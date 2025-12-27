@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "github.com/mrexodia/ida-pro-mcp": {
+            "command": "uv",
+            "args": [
+                "run",
+                "ida-pro-mcp"
+            ],
+            "timeout": 1800
+        },
+        "jadx-mcp-server": {
+            "command": "uv", 
+            "args": [
+		"--directory",
+		"/home/namaek2/MCPs/jadx-mcp-server",
+                "run",
+                "jadx_mcp_server.py"
+            ]
+	}
+    }
+}
