@@ -47,11 +47,17 @@ case "$1" in
 		change_backlight "+1%"
 		;;
 	"--dec")
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
-		change_backlight "1%-"
+		current=$(get_backlight)
+	    current=${current%\%}
+		if [ "$current" -eq 1 ]; then
+			change_backlight "0%"
+		elif [ "$current" -le 6 ]; then
+			change_backlight "1%"
+		else
+			for i in {1..5}; do
+				change_backlight "1%-"
+			done
+		fi
 		;;
 	*)
 		get_backlight
