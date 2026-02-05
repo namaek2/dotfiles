@@ -14,9 +14,11 @@ bluez-utils
 bolt
 brightnessctl
 btop
+checksec
 cliphist
 cmatrix
 cpio
+cpupower
 cups
 docker
 dunst
@@ -27,8 +29,10 @@ firefox-developer-edition
 fping
 fprintd
 freerdp
+fwupd
 fzf
 gdb
+gemini-cli
 git
 glib2-devel
 gnome-calculator
@@ -40,6 +44,7 @@ gradle
 grub
 gvfs
 hashcat-utils
+hid-tools
 hypridle
 hyprland
 hyprlock
@@ -86,6 +91,7 @@ python-pip
 python-pwntools
 python-pycryptodome
 python-pyqtgraph
+python-qrcode
 python-requests
 python-tensorflow
 python-tomli
@@ -120,6 +126,7 @@ unrar
 vim
 vlc
 waybar
+wev
 wget
 wireplumber
 wireshark-qt

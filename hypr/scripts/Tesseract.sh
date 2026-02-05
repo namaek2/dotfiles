@@ -1,1 +1,1 @@
-grim -g "$(slurp)" - | tesseract - - | wl-copy
+grim -g "$(slurp)" - | tesseract -l eng+chi_sim+jpn+kor+fra - - | wl-copy
