@@ -5,7 +5,7 @@ DIR=$HOME/Pictures/wallpapers
 FPS=30
 TYPE="simple"
 DURATION=3
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
+AWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
 
 # Check if swaybg is running
 if pidof swaybg > /dev/null; then
@@ -33,7 +33,7 @@ menu() {
   printf "$RANDOM_PIC_NAME"
 }
 
-swww query || swww init
+awww query || awww init
 
 main() {
   choice=$(menu | ${rofi_command})
@@ -45,12 +45,12 @@ main() {
 
   # Random choice case
   if [ "$choice" = "$RANDOM_PIC_NAME" ]; then
-    swww img "${DIR}/${RANDOM_PIC}" $SWWW_PARAMS
+    awww img "${DIR}/${RANDOM_PIC}" $AWWW_PARAMS
     exit 0
   fi
 
   pic_index=$(echo "$choice" | cut -d. -f1)
-  swww img "${DIR}/${PICS[$pic_index]}" $SWWW_PARAMS
+  awww img "${DIR}/${PICS[$pic_index]}" $AWWW_PARAMS
 }
 
 # Check if rofi is already running
@@ -61,5 +61,5 @@ fi
 
 main
 
-$HOME/.config/hypr/scripts/PywalSwww.sh &
+$HOME/.config/hypr/scripts/PywalAwww.sh &
 $HOME/.config/hypr/scripts/Refresh.sh
