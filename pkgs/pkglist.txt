@@ -4,10 +4,13 @@ aircrack-ng
 alsa-ucm-conf
 alsa-utils
 android-tools
+anki
 ark
 audacity
+awww
 base
 base-devel
+binwalk
 blueman
 bluez
 bluez-utils
@@ -64,6 +67,7 @@ mariadb
 maven
 metasploit
 minicom
+mpv
 mtd-utils
 network-manager-applet
 networkmanager
@@ -108,12 +112,14 @@ solaar
 sqlitebrowser
 sqlmap
 squashfs-tools
+steam
 swappy
-swww
 tesseract
 tesseract-data-chi_sim
 tesseract-data-chi_tra
 tesseract-data-eng
+tesseract-data-fra
+tesseract-data-jpn
 tesseract-data-kor
 thefuck
 thunar
@@ -125,6 +131,7 @@ udisks2
 unrar
 vim
 vlc
+volatility3
 waybar
 wev
 wget
