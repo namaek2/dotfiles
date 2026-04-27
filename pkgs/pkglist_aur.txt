@@ -27,6 +27,8 @@ kuro
 libreoffice-extension-h2orestart
 noisetorch-git
 notion-app-electron
+openai-codex-bin
+pacgraph
 papirus-icon-theme-git
 paru
 pipes-rs
