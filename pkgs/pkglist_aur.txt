@@ -2,7 +2,7 @@ android-apktool-bin
 android-studio
 apple-fonts
 ascii-image-converter
-aur-auto-vote-git
+aur-sync-vote
 autopsy
 bindiff
 burpsuite
@@ -20,11 +20,11 @@ gimp-devel
 github-copilot-cli
 gnu-netcat
 hashcat-git
-jadx-gui-desktop
 jefferson
 kime-git
 kuro
 libreoffice-extension-h2orestart
+libreoffice-extension-languagetool
 noisetorch-git
 notion-app-electron
 openai-codex-bin

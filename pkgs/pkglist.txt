@@ -53,6 +53,7 @@ hyprland
 hyprlock
 intel-compute-runtime
 intel-ucode
+jadx
 jdk21-openjdk
 john
 kitty
