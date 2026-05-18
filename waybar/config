@@ -5,10 +5,10 @@
     "position": "top",
     "modules-left": ["custom/launcher", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "cpu", "memory","pulseaudio", "backlight", "battery", "custom/lock", "custom/power-menu"],
+    "modules-right": ["custom/spotify","tray", "cpu", "memory","pulseaudio", "backlight", "battery", "custom/lock", "custom/power-menu"],
     "hyprland/workspaces": {
       "format": "{icon}",
-      "on-click": "activate",
+      "on-click": "active",  // not working??
       "format-icons": {
         "active": " 󰮯",
         "default": "󰑊"
@@ -20,7 +20,15 @@
       "max-length": 50,
       "separate-outputs": true
     },
- 
+
+	"custom/spotify": {
+		"exec": "/usr/bin/python3 /home/namaek2/.config/waybar/scripts/mediaplayer.py --player spotify",
+		"format": "{}", // ",
+		"return-type": "json",
+		"on-click": "playerctl play-pause",
+		"on-scroll-up": "playerctl next",
+		"on-scroll-down": "playerctl previous"
+	},
 
     "tray": {
         "spacing": 10
@@ -40,7 +48,7 @@
       "interval": 10,
       "format": "󰍛 {usage}%",
       "max-length": 10,
-      "on-click-right": "gnome-system-monitor"
+      "on-click-right": "~/.config/waybar/scripts/launch_system_monitor.sh"
     },
     "memory": {
         "interval": 30,
@@ -123,7 +131,7 @@
     },
  
     "custom/launcher": {
-        "format": "",
-        "on-click": "hyprctl dispatch hyprexpo:expo toggle"  //"rofi -show drun &"
+        "format": "" //,
+       // "on-click": "hyprctl dispatch hyprexpo:expo toggle"  //"rofi -show drun &"
     }
 }

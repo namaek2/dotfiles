@@ -21,6 +21,13 @@ window#waybar.hidden {
 	margin-left: 10px;
 }
 
+.custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+	/*background-color: rgba(26, 26, 26, 0.5);*/    
+	color: #64727d;
+}
+
 #clock,
 #tray,
 #workspaces
