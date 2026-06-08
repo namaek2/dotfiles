@@ -15,14 +15,15 @@ docker-desktop
 dwarf2json-git
 easyeda-bin
 ghidra-git
-ghidra-mcp
 gimp-devel
 github-copilot-cli
 gnu-netcat
 hashcat-git
+ida-pro
 jefferson
 kime-git
 kuro
+libayatana-appindicator-glib
 libreoffice-extension-h2orestart
 libreoffice-extension-languagetool
 noisetorch-git
@@ -38,6 +39,8 @@ r-quick-share
 sasquatch
 seclists
 sherlock-git
+spotiflac-bin
+spotify
 staruml
 steghide
 tela-circle-icon-theme-standard-git

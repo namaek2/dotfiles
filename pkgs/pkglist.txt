@@ -10,6 +10,7 @@ audacity
 awww
 base
 base-devel
+bash-completion
 binwalk
 blueman
 bluez
@@ -23,6 +24,7 @@ cmatrix
 cpio
 cpupower
 cups
+cups-pdf
 docker
 dunst
 efibootmgr
@@ -93,6 +95,7 @@ python-opencv
 python-opengl
 python-openpyxl
 python-pip
+python-playwright
 python-pwntools
 python-pycryptodome
 python-pyqtgraph
@@ -100,6 +103,8 @@ python-qrcode
 python-requests
 python-tensorflow
 qemu-desktop
+qemu-system-arm
+qemu-user-static
 reflector
 remmina
 rofi
@@ -108,7 +113,6 @@ rsync
 sagemath
 sl
 sof-firmware
-solaar
 sqlitebrowser
 sqlmap
 squashfs-tools
