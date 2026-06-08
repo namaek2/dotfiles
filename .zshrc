@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -9,6 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="cloud"
+fastfetch --config ~/.config/fastfetch/config.jsonc
+DISABLE_AUTO_UPDATE="true"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -24,7 +25,7 @@ ZSH_THEME="cloud"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
+zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
@@ -71,15 +72,27 @@ ZSH_THEME="cloud"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
-fastfetch
-eval $(thefuck --alias)
+
+#eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
-eval $(thefuck --alias FUCK)
+# eval $(thefuck --alias FUCK)
+
+_thefuck_init() {
+  unfunction fuck FUCK _thefuck_init 2>/dev/null
+  eval "$(thefuck --alias)"
+  eval "$(thefuck --alias FUCK)"
+}
+fuck() { _thefuck_init; fuck "$@"; }
+FUCK() { _thefuck_init; FUCK "$@"; }
+
 alias venv='python -m venv .venv && source .venv/bin/activate'
 alias qemu@windows='qemu-system-x86_64 -m 6G -enable-kvm -cpu host -smp sockets=1,cores=6,threads=6 -drive file=./windows.raw,format=raw'
 alias qemu@android='qemu-system-x86_64 -m 4G -enable-kvm -boot menu=off -drive file=./android,format=raw'
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,3 +120,4 @@ alias qemu@android='qemu-system-x86_64 -m 4G -enable-kvm -boot menu=off -drive f
 #alias zshconfig="mate ~/.zshrc"
 
 #alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
