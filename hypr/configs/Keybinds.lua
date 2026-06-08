@@ -31,7 +31,7 @@ hl.bind(mainMod .. " + F",         hl.dsp.window.fullscreen_state({ internal = 0
 hl.bind(mainMod .. " + Q",         hl.dsp.window.close())
 hl.bind(mainMod .. " + Return",    hl.dsp.exec_cmd(term))
 hl.bind(mainMod .. " + T",         hl.dsp.exec_cmd("kuro"))
-hl.bind(mainMod .. " + P",         hl.dsp.exec_cmd(scriptsDir .. "/launch_perplexity.sh"))
+-- hl.bind(mainMod .. " + P",         hl.dsp.exec_cmd(scriptsDir .. "/launch_perplexity.sh"))
 hl.bind(mainMod .. " + R",         hl.dsp.exec_cmd(files))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(colorpicker))
 hl.bind(mainMod .. " + L",         hl.dsp.exec_cmd(scriptsDir .. "/LockScreen.sh"))

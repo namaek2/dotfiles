@@ -22,5 +22,13 @@ hl.window_rule({
     center = true,
 })
 
+hl.window_rule({
+	name = "color-float",
+	match = { class = "zenity" },
+	float = true,
+	size = "500 500",
+	center = true,
+})
+
 -- hl.window_rule({ match = { class = "ghidra-Ghidra" }, tile = true })
 -- hl.window_rule({ match = { initial_class = "autopsy" }, tile = true })
