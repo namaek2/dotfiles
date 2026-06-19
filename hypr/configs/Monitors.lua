@@ -16,6 +16,7 @@ hl.monitor({
     mode     = "1920x1200@120",
     position = "0x0",
     scale    = 1,
+	vrr		 = 1,
 })
 
 -- Examples (uncomment as needed):
