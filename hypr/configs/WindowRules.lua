@@ -26,7 +26,7 @@ hl.window_rule({
 	name = "color-float",
 	match = { class = "zenity" },
 	float = true,
-	size = "500 500",
+	size = "400 300",
 	center = true,
 })
 

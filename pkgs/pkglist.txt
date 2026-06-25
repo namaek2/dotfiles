@@ -45,6 +45,7 @@ gnome-sound-recorder
 gnome-system-monitor
 gnome-themes-extra
 go
+godot
 gradle
 grub
 gvfs
@@ -88,7 +89,6 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-powertop
 pwndbg
 python-olefile
 python-opencv

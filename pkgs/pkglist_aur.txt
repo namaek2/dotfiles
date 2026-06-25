@@ -33,6 +33,7 @@ pacgraph
 papirus-icon-theme-git
 paru
 pipes-rs
+powertop-git
 python-frida
 python-javalang
 r-quick-share
