@@ -8,8 +8,7 @@ bindiff
 burpsuite
 capa-bin
 claude-code
-claude-desktop-native
-cline-cli
+claude-desktop-bin
 cramfs-tools
 docker-desktop
 dwarf2json-git

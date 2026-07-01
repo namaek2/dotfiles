@@ -17,7 +17,7 @@ local function rawDispatch(s)
 end
 
 -- Claude desktop (keycode 201)
-hl.bind("SUPER + SHIFT + code:201", hl.dsp.exec_cmd('kitty bash -c "claude-desktop-native"'))
+hl.bind("SUPER + SHIFT + code:201", hl.dsp.exec_cmd('kitty bash -c "claude-desktop"'))
 
 -- App launchers and basic actions
 hl.bind(mainMod .. " + E",         hl.dsp.exec_cmd("firefox-developer-edition"))
