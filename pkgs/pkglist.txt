@@ -28,6 +28,7 @@ cups-pdf
 docker
 dunst
 efibootmgr
+eigen3
 eog
 fastfetch
 firefox-developer-edition
@@ -40,6 +41,7 @@ gdb
 gemini-cli
 git
 glib2-devel
+glow
 gnome-calculator
 gnome-sound-recorder
 gnome-system-monitor
@@ -49,6 +51,7 @@ godot
 gradle
 grub
 gvfs
+gvim
 hashcat-utils
 hid-tools
 hypridle
@@ -60,11 +63,14 @@ jadx
 jdk21-openjdk
 john
 kitty
+kiwix-desktop
 libfprint
+libinput-tools
 libnetfilter_queue
 linux
 linux-firmware
 linux-headers
+llama-cpp
 man-db
 man-pages
 mariadb
@@ -72,6 +78,7 @@ maven
 metasploit
 minicom
 mpv
+msolve
 mtd-utils
 network-manager-applet
 networkmanager
@@ -81,7 +88,6 @@ nwg-displays
 nwg-look
 obs-studio
 okteta
-ollama
 os-prober
 pamixer
 pavucontrol
@@ -133,10 +139,11 @@ ttf-jetbrains-mono-nerd
 tumbler
 udisks2
 unrar
-vim
 vlc
 volatility3
+vulkan-tools
 waybar
+wayland-utils
 wev
 wget
 wireplumber

@@ -1,0 +1,2 @@
+pidof hyprlock || hyprlock
+systemctl suspend
