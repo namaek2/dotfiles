@@ -124,6 +124,10 @@ hl.animation({ leaf = "fadeIn",           enabled = true, speed = 5,  bezier = "
 hl.animation({ leaf = "workspaces",       enabled = true, speed = 4,  bezier = "wind" })
 hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 5,  bezier = "bounce" })
 
+hl.animation({ leaf = "layers",     enabled = true, speed = 3, bezier = "default" })
+hl.animation({ leaf = "fadeLayers", enabled = true, speed = 10, bezier = "default" })
+
+
 -- Gestures (was: gesture = FINGERS, DIRECTION, ACTION[, MODE])
 hl.gesture({ fingers = 3, direction = "horizontal", action = "workspace" })
 -- hl.gesture({ fingers = 3, direction = "vertical",   action = "dispatcher", mode = "hyprexpo:expo,toggle" })
